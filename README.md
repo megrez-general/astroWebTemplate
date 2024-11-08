@@ -1,20 +1,19 @@
-# Astro Starter Kit: Basics
+# Welcome to Megrez Static Website template repository supported by Astro!
 
-```sh
-npm create astro@latest -- --template basics
-```
+## This is a template to get you started on client projects which empathises on Static Web development using Astro.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+The template provides a guide on the file structure, linting rules, formating and libraries used in a typical Static Website development. If there are any specific libraries you would like to swap out (eg redux toolkit / mobx), approach your tech lead to discuss before doing so and only once the template is cloned in your repository. For styling, the template uses tailwind CSS as default however if you prefer other styling choices, discuss with your tech lead and swap out the libraries as required.. For more best practices and Megrez coding style, refer to the readme in Megrez organisation github page.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Resources
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- [Astro Documentation](https://docs.astro.build/en/getting-started/)
+- [Tailwind CSS Documentation](https://tailwindcss.com)
+- [Tailwind integration with Astro](https://docs.astro.build/en/guides/integrations-guide/tailwind/)
+- [Eslint documentation](https://eslint.org/docs/l)
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and file:
+Inside of this template, you'll see the following folders and file:
 
 ```text
 /
@@ -30,7 +29,7 @@ Inside of your Astro project, you'll see the following folders and file:
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+As this is an Astro projet, it looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
 There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
@@ -48,7 +47,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
